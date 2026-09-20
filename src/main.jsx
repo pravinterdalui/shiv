@@ -10,9 +10,11 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 //import './index.css'
 import App from './App.jsx'
 import { Login } from './component/login/login.jsx'
+import { DataBinding } from './component/data-binding/data-binding.jsx';
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Login />
+    <DataBinding/>
   </StrictMode>,
 )
